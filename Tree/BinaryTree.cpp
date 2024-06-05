@@ -203,3 +203,10 @@ int main()
     cout << "\nInorder traversal after deletion: ";
     inorderTraversal(root);
 }
+
+// output:  Preorder traversal: 10 20 40 30
+//          Inorder traversal: 20 10 40 30
+//          Postorder traversal: 20 40 30 10
+//          Level order traversal: 10 20 30 40
+//          Inorder traversal after deletion: 30 10 40
+
